@@ -127,7 +127,7 @@ describe('space invaders', () => {
     })
 
     it('should assign a crew member', function() {
-      expect(tristan.spaceshipId).toBe(2)
+      expect(tristan.ship_id).toBe(2)
     })
 
     it('a crew member should know his or her ship', function() {
